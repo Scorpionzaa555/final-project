@@ -143,11 +143,11 @@
         }
         label = results[0].label;
 
-        if (label == "Mark Mask") {
+        if (label == "Mark Wear Mask") {
           mqttSend("/ESP/LED", "relay1_on");
-        } else if (label == "Kong Mask") {
+        } else if (label == "Kong Wear Mask") {
           mqttSend("/ESP/LED", "relay1_on");
-        } else if (label == "Film Mask") {
+        } else if (label == "Film Wear Mask") {
           mqttSend("/ESP/LED", "relay1_on");
         } else if (label == "Mark No Mask") {
           mqttSend("/ESP/LED", "relay1_off");
